@@ -1,9 +1,9 @@
 # Swift_bootcamp
 ## The collection of pet projects to get started with Swift. 
 
-There are Comand line tool for MacOs projects in repo.
+There are Comand line tool apps for MacOs in repo.
 
-Like a team project there is one IOS app
+As a team project there is one IOS app
 
 ## Project list
 
