@@ -2,7 +2,7 @@
 
 ## The collection of pet projects to get started with Swift
 
-![swift_logo](./imgs/swift_logo.png)
+![swift_logo](./images/swift_logo.png)
 
 <p style="text-align: center;">
     There are Comand line tool apps for MacOs in repo
