@@ -1,9 +1,16 @@
 # Swift_bootcamp
-## The collection of pet projects to get started with Swift. 
 
-There are Comand line tool apps for MacOs in repo.
+## The collection of pet projects to get started with Swift
 
-As a team project there is one IOS app
+![swift_logo](./imgs/swift_logo.png)
+
+<p style="text-align: center;">
+    There are Comand line tool apps for MacOs in repo
+</p>
+
+<p style="text-align: center;">
+    As a team project there is one IOS app    
+</p>
 
 ## Project list
 
