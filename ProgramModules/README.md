@@ -1,4 +1,4 @@
-# Program modules
+# Program Modules
 
 ## Introduction
 
