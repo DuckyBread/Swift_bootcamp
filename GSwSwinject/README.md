@@ -26,3 +26,4 @@
   2. Зарегистрировать в `container` объект `UserRepository` с использованием `DatabaseService`, `NetworkService`. При создании указать паттерн **singletone**.
   3. Получить объект `UserRepository` из `Container` и вызвать метод `Update`.  Получить еще один объект `UserRepository` из `Container` и сравнить полученные объекты.
 
+![output](./../images/GSwSwinject/swinject.png)

@@ -100,3 +100,5 @@ enum Status: String, CaseIterable {
 }
 ```
 
+![server_output](./../images/IteractiveFiction/server.png)
+
