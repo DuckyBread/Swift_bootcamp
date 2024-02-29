@@ -12,7 +12,7 @@ iOs app. Designed for receiving, storing and step-by-step display of recipes.
   <img src="misc/images/app5.png" width="200" style="margin-right:  10px; border:  2px solid black;" />
   <img src="misc/images/app6.png" width="270" style="margin-right:  10px; border:  2px solid black;" />
   <img src="misc/images/app7.png" width="270" style="margin-right:  10px; border:  2px solid black;" />
-  <img src="misc/images/app8.png" width="270" style="border:  2px solid black;" />
+  <img src="misc/images/app7_1.png" width="270" style="border:  2px solid black;" />
 </p>
 
 
