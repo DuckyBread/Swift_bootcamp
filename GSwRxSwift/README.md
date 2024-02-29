@@ -8,6 +8,23 @@
 2. Если функция применяется к `firstCollection` - входным параметром является *Observable\<String\>*,
 3. Если функция применяется к `secondCollection` - входным параметром является *Observable\<Sample>*.
 
+```swift
+let firstCollection = Observable.of("first", "second", "third")
+
+struct Sample {
+    let id: Int
+    let text: String
+}
+
+let secondCollection = Observable.of(
+        Sample(id: 1, text: "some text"),
+        Sample(id: 1, text: "any text"),
+        Sample(id: 2, text: "more text"),
+        Sample(id: 2, text: "other text"),
+        Sample(id: 3, text: "too text")
+)
+```
+
 ## Overview
 
 | Task | Conditions |
@@ -20,3 +37,7 @@
 |6|Реализовать функцию, считающую общую длину строк в `firstCollection`|
 |7|Реализовать функцию, считающую количество строк в `firstCollection`|
 |8|Реализовать функцию, возвращающую массив строк (полей text) из `secondCollection`|
+
+## Output
+
+![output](./../images/GSwSwiftRx/output.png)

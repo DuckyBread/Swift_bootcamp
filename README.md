@@ -14,7 +14,7 @@
 
 ## Project list
 
-1. [Simple calculator](./SimpleCalculator/)
+1. [Program modules](./ProgramModules/)
 2. [Rescue service](./RescueService/)
 3. [HR service tool](./HrServiceTool/)
 4. [Interactive fiction](./IteractiveFiction/)
