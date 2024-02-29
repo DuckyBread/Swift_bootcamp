@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D7973CD92B90DF6E001EA97E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7973CD82B90DF6E001EA97E /* main.swift */; };
-		D7973CF92B90DFE1001EA97E /* Candidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7973CF82B90DFE1001EA97E /* Candidate.swift */; };
-		D7973CFB2B90DFEE001EA97E /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7973CFA2B90DFEE001EA97E /* Company.swift */; };
-		D7973CFD2B90E005001EA97E /* Vacancy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7973CFC2B90E005001EA97E /* Vacancy.swift */; };
+		D7973D0B2B90E097001EA97E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7973D0A2B90E097001EA97E /* main.swift */; };
+		D7973D122B90E0B6001EA97E /* CandidateInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7973D112B90E0B6001EA97E /* CandidateInfo.swift */; };
+		D7973D142B90E0C2001EA97E /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7973D132B90E0C2001EA97E /* Education.swift */; };
+		D7973D162B90E0D4001EA97E /* Resume.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7973D152B90E0D4001EA97E /* Resume.swift */; };
+		D7973D182B90E0DD001EA97E /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7973D172B90E0DD001EA97E /* Summary.swift */; };
+		D7973D1A2B90E0F3001EA97E /* WorkExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7973D192B90E0F3001EA97E /* WorkExperience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D7973CD32B90DF6E001EA97E /* CopyFiles */ = {
+		D7973D052B90E097001EA97E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -26,15 +28,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D7973CD52B90DF6E001EA97E /* WorkSearcher */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WorkSearcher; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7973CD82B90DF6E001EA97E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		D7973CF82B90DFE1001EA97E /* Candidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candidate.swift; sourceTree = "<group>"; };
-		D7973CFA2B90DFEE001EA97E /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
-		D7973CFC2B90E005001EA97E /* Vacancy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vacancy.swift; sourceTree = "<group>"; };
+		D7973D072B90E097001EA97E /* ResumeAnalyser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ResumeAnalyser; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7973D0A2B90E097001EA97E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D7973D112B90E0B6001EA97E /* CandidateInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateInfo.swift; sourceTree = "<group>"; };
+		D7973D132B90E0C2001EA97E /* Education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
+		D7973D152B90E0D4001EA97E /* Resume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resume.swift; sourceTree = "<group>"; };
+		D7973D172B90E0DD001EA97E /* Summary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
+		D7973D192B90E0F3001EA97E /* WorkExperience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkExperience.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D7973CD22B90DF6E001EA97E /* Frameworks */ = {
+		D7973D042B90E097001EA97E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,69 +48,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D7973CCC2B90DF6E001EA97E = {
+		D7973CFE2B90E097001EA97E = {
 			isa = PBXGroup;
 			children = (
-				D7973CD72B90DF6E001EA97E /* WorkSearcher */,
-				D7973CD62B90DF6E001EA97E /* Products */,
+				D7973D092B90E097001EA97E /* ResumeAnalyser */,
+				D7973D082B90E097001EA97E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D7973CD62B90DF6E001EA97E /* Products */ = {
+		D7973D082B90E097001EA97E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D7973CD52B90DF6E001EA97E /* WorkSearcher */,
+				D7973D072B90E097001EA97E /* ResumeAnalyser */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D7973CD72B90DF6E001EA97E /* WorkSearcher */ = {
+		D7973D092B90E097001EA97E /* ResumeAnalyser */ = {
 			isa = PBXGroup;
 			children = (
-				D7973CD82B90DF6E001EA97E /* main.swift */,
-				D7973CF82B90DFE1001EA97E /* Candidate.swift */,
-				D7973CFA2B90DFEE001EA97E /* Company.swift */,
-				D7973CFC2B90E005001EA97E /* Vacancy.swift */,
+				D7973D0A2B90E097001EA97E /* main.swift */,
+				D7973D112B90E0B6001EA97E /* CandidateInfo.swift */,
+				D7973D132B90E0C2001EA97E /* Education.swift */,
+				D7973D152B90E0D4001EA97E /* Resume.swift */,
+				D7973D172B90E0DD001EA97E /* Summary.swift */,
+				D7973D192B90E0F3001EA97E /* WorkExperience.swift */,
 			);
-			path = WorkSearcher;
+			path = ResumeAnalyser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D7973CD42B90DF6E001EA97E /* WorkSearcher */ = {
+		D7973D062B90E097001EA97E /* ResumeAnalyser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7973CDC2B90DF6E001EA97E /* Build configuration list for PBXNativeTarget "WorkSearcher" */;
+			buildConfigurationList = D7973D0E2B90E097001EA97E /* Build configuration list for PBXNativeTarget "ResumeAnalyser" */;
 			buildPhases = (
-				D7973CD12B90DF6E001EA97E /* Sources */,
-				D7973CD22B90DF6E001EA97E /* Frameworks */,
-				D7973CD32B90DF6E001EA97E /* CopyFiles */,
+				D7973D032B90E097001EA97E /* Sources */,
+				D7973D042B90E097001EA97E /* Frameworks */,
+				D7973D052B90E097001EA97E /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WorkSearcher;
-			productName = WorkSearcher;
-			productReference = D7973CD52B90DF6E001EA97E /* WorkSearcher */;
+			name = ResumeAnalyser;
+			productName = ResumeAnalyser;
+			productReference = D7973D072B90E097001EA97E /* ResumeAnalyser */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D7973CCD2B90DF6E001EA97E /* Project object */ = {
+		D7973CFF2B90E097001EA97E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					D7973CD42B90DF6E001EA97E = {
+					D7973D062B90E097001EA97E = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
-			buildConfigurationList = D7973CD02B90DF6E001EA97E /* Build configuration list for PBXProject "WorkSearcher" */;
+			buildConfigurationList = D7973D022B90E097001EA97E /* Build configuration list for PBXProject "ResumeAnalyser" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,32 +120,34 @@
 				en,
 				Base,
 			);
-			mainGroup = D7973CCC2B90DF6E001EA97E;
-			productRefGroup = D7973CD62B90DF6E001EA97E /* Products */;
+			mainGroup = D7973CFE2B90E097001EA97E;
+			productRefGroup = D7973D082B90E097001EA97E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D7973CD42B90DF6E001EA97E /* WorkSearcher */,
+				D7973D062B90E097001EA97E /* ResumeAnalyser */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D7973CD12B90DF6E001EA97E /* Sources */ = {
+		D7973D032B90E097001EA97E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7973CD92B90DF6E001EA97E /* main.swift in Sources */,
-				D7973CFD2B90E005001EA97E /* Vacancy.swift in Sources */,
-				D7973CF92B90DFE1001EA97E /* Candidate.swift in Sources */,
-				D7973CFB2B90DFEE001EA97E /* Company.swift in Sources */,
+				D7973D162B90E0D4001EA97E /* Resume.swift in Sources */,
+				D7973D182B90E0DD001EA97E /* Summary.swift in Sources */,
+				D7973D0B2B90E097001EA97E /* main.swift in Sources */,
+				D7973D122B90E0B6001EA97E /* CandidateInfo.swift in Sources */,
+				D7973D1A2B90E0F3001EA97E /* WorkExperience.swift in Sources */,
+				D7973D142B90E0C2001EA97E /* Education.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D7973CDA2B90DF6E001EA97E /* Debug */ = {
+		D7973D0C2B90E097001EA97E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,7 +210,7 @@
 			};
 			name = Debug;
 		};
-		D7973CDB2B90DF6E001EA97E /* Release */ = {
+		D7973D0D2B90E097001EA97E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,7 +265,7 @@
 			};
 			name = Release;
 		};
-		D7973CDD2B90DF6E001EA97E /* Debug */ = {
+		D7973D0F2B90E097001EA97E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -266,7 +274,7 @@
 			};
 			name = Debug;
 		};
-		D7973CDE2B90DF6E001EA97E /* Release */ = {
+		D7973D102B90E097001EA97E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -278,25 +286,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D7973CD02B90DF6E001EA97E /* Build configuration list for PBXProject "WorkSearcher" */ = {
+		D7973D022B90E097001EA97E /* Build configuration list for PBXProject "ResumeAnalyser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7973CDA2B90DF6E001EA97E /* Debug */,
-				D7973CDB2B90DF6E001EA97E /* Release */,
+				D7973D0C2B90E097001EA97E /* Debug */,
+				D7973D0D2B90E097001EA97E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7973CDC2B90DF6E001EA97E /* Build configuration list for PBXNativeTarget "WorkSearcher" */ = {
+		D7973D0E2B90E097001EA97E /* Build configuration list for PBXNativeTarget "ResumeAnalyser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7973CDD2B90DF6E001EA97E /* Debug */,
-				D7973CDE2B90DF6E001EA97E /* Release */,
+				D7973D0F2B90E097001EA97E /* Debug */,
+				D7973D102B90E097001EA97E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D7973CCD2B90DF6E001EA97E /* Project object */;
+	rootObject = D7973CFF2B90E097001EA97E /* Project object */;
 }

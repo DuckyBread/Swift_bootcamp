@@ -1,3 +1,5 @@
+import Foundation
+
 class UserRepository: Equatable {
     typealias Services = NetworkService & DatabaseService
     

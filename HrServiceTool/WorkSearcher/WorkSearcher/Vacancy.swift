@@ -8,6 +8,7 @@ class Vacancy {
         self.level = level
         self.salary = salary
     }
+    
 }
 
 enum Profession: String, CaseIterable {

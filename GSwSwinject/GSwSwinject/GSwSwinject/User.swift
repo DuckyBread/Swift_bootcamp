@@ -1,3 +1,5 @@
+import Foundation
+
 class User {
   let name: String
   var surname: String

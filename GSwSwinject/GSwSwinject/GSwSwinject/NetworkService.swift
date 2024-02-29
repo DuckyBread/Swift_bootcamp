@@ -1,3 +1,5 @@
+import Foundation
+
 protocol NetworkService: AnyObject {
   func getUsers() -> [User]
 }

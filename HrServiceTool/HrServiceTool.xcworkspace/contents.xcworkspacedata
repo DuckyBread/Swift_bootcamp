@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ResumeAnalyser/ResumeAnalyser.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:WorkSearcher/WorkSearcher.xcodeproj">
    </FileRef>
 </Workspace>
